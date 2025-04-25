@@ -1,0 +1,40 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- Remotes -->
+   <remote name="mayuresh"
+           fetch="https://github.com/Mayuresh2543"
+           clone-depth="1" />
+   <remote name="kami"
+           fetch="https://github.com/kamikaonashi"
+           clone-depth="1" />
+   <remote name="cr"
+           fetch="https://github.com/crdroidandroid"
+           clone-depth="1" />
+   <remote name="linag"
+           fetch="https://github.com/LineageOS"
+           clone-depth="1" />
+   <remote name="cumos"
+           fetch="https://github.com/cumOS"
+	   clone-depth="1" />
+   <remote name="chk-bcr"
+           fetch="https://github.com/Chaitanyakm"
+	   clone-depth="1" />
+
+ 
+ <!-- Tree -->
+ <project path="device/xiaomi/sweet" name="android_device_xiaomi_sweet" remote="mayuresh" revision="lineage-22.2" />
+
+ <!-- Kernel -->
+ <project path="kernel/xiaomi/sweet" name="android_kernel_xiaomi_sweet" remote="linag" revision="lineage-22.2" />
+
+ <!-- Vendor -->
+ <project path="vendor/xiaomi/sweet" name="proprietary_vendor_xiaomi_sweet" remote="linag" revision="lineage-22.2" />
+ 
+ <!-- Common Xiaomi Hardware Tree -->
+ <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="linag" revision="lineage-22.2" />
+
+ <!-- Kanged from Vedraj🫠 -->
+	
+</manifest>
